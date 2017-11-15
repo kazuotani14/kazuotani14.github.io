@@ -1,0 +1,46 @@
+<html>
+
+<head>
+  <title>Walk optimally!</title>
+</head>
+
+<body>
+
+<h1>DynOpt HW 2</h1>
+<h3> Kazu Otani</h3>
+
+<b>Using Function Optimization To Find Policies</b> <br>
+
+<a href="hw2_writeup.pdf">Writeup</a><br>
+<a href="dynopt_hw2.zip">Code</a><br>
+
+<br>
+<b>Gaits</b> <br>
+Original controller (not optimized) <br>
+<img src="originalwalk.gif" height="200"/> <br>
+Fast walking <br>
+<img src="fastwalk.gif" height="200"/> <br>
+Heavy torso <br>
+<img src="heavywalk.gif" height="200"/> <br>
+<br>
+
+Gait optimized to withstand occasional impulses to the torso...
+<br>
+In perturbation-free environment <br>
+<img src="perturb1.gif" height="200"/> <br>
+Recovering from push (200N for 0.01s in middle of screen) <br>
+<img src="perturb2.gif" height="200"/> <br>
+Falling from push (250N for 0.01s in middle of screen)  <br>
+<img src="perturb3.gif" height="200"/> 
+<br>
+Controller optimized in perturbation-free environment, with same optimization paramters <br>
+<img src="perturb4.gif" height="200"/>
+<br><br>
+Controller optimized for constant white noise torso perturbations. Notice how carefully it walks <br>
+<img src="perturb5.gif" height="200"/> <br>
+Controller fails when white noise magnitude is increased by >50% <br>
+<img src="perturb6.gif" height="200"/> <br>
+
+</body>
+
+</html>
