@@ -1,5 +1,6 @@
 ---
 title:  "Mathjax in Jekyll"
+use_math: true
 ---
 
 Some references I used to add Mathjax support in my notes: 
