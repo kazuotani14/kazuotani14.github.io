@@ -1,5 +1,5 @@
 name: Kazuya Otani Blog
-markdown: maruku
+markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 collections:
   notes:
