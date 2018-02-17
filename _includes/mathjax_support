@@ -1,4 +1,4 @@
-<!-- Reference: http://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/ --> 
+{% comment %}<!-- Reference: http://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/ --> {% endcomment %}
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
