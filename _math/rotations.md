@@ -2,8 +2,6 @@
 title:  "Rotations"
 ---
 
-# Transforms!
-
 Watch 3blue1brown videos
 
 ### Rotation matrices (aka Direction Cosine Matrices)

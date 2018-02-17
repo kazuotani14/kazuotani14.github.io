@@ -8,7 +8,7 @@ Ellipsoid representation is: $E=\{x \text{ \| }(x-c)^TS(x-c)\leq 1\}$
 
 Taking SVD of $S$, and since that's symmetric: $E=\{x \text{ \| }(x-c)^TU\Sigma^2 U^T(x-c)\leq 1\}$, where $\Sigma$ is diagonal matrix with elements $\Sigma_{ii}=\sigma_i$
 
-This can be written as forward image of Euclidean unit ball under affine mapping: $E = \{U\Sigma^{-1}v + c \text{ | } ||v||_{2} \leq 1\}$_
+This can be written as forward image of Euclidean unit ball under affine mapping: $E = \{U\Sigma^{-1}v + c \text{ \| } \|\|v\|\|_{2} \leq 1\}$_
 
 Or inverse image of "" :
 $E = x \text{ \| } \{\|\|\Sigma U^T(x-c)\|\| \leq 1\}$
