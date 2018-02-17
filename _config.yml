@@ -1,17 +1,40 @@
-name: Kazuya Otani Blog
+name: Kazuya Otani 
+
 markdown: kramdown
 # markdown: maruku
 markdown_ext: markdown,mkd,mkdn,md
 permalink: /blog/:year/:month/:day/:title
+
+# collections_dir: notes 
+# TODO use collections_dir after updating jekyll 
+
 collections:
-  notes:
+  math: 
     output: true
-    permalink: /notes/:path
+    permalink: /notes/math/:path/
+  howto: 
+    output: true
+    permalink: /notes/howto/:path/
+  reading_notes:
+    output: true
+    permalink: /notes/reading_notes/:path/
 
 defaults:
   - scope:
       path: ""
-      type: notes
+      type: math
+    values:
+      layout: page
+      use_math: true
+  - scope:
+      path: ""
+      type: howto
+    values:
+      layout: page
+      use_math: true
+  - scope:
+      path: ""
+      type: reading_notes
     values:
       layout: page
       use_math: true

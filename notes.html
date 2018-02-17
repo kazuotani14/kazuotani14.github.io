@@ -5,10 +5,32 @@ title: Notes
 
 	<h1>{{ page.title }}</h1>
 
-	<ul class="notes">
-	  {% for post in site.notes %}
-	    <li><span>
+<h2>Math</h2>
+
+<ul class="math">
+    {% for post in site.math %}
+      <li><span>
         <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
       </li>
-	  {% endfor %}
-	</ul>
+    {% endfor %}
+  </ul>
+
+<h2>Reading/lecture notes</h2>
+
+  <ul class="reading_notes">
+    {% for post in site.reading_notes %}
+      <li><span>
+        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+<h2>Misc</h2>
+
+  <ul class="howto">
+    {% for post in site.howto %}
+      <li><span>
+        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
