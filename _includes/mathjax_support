@@ -1,5 +1,3 @@
-{% comment %}<!-- Reference: http://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/ --> {% endcomment %}
-
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     TeX: {
@@ -16,3 +14,5 @@
 <script type="text/javascript"
         src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
